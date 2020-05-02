@@ -35,20 +35,14 @@ Color changer will pick random color from 6 distint color and change it with the
 AugImage = DocumentAugmention.changeColor(image)
 ```
 
-* Brightness Up and Down <br>
-Increase the Brightness. 
+* Brightness Up and Down <br><br>
+Increase the Brightness.
 ```
 AugImage = DocumentAugmention.BrightnessUp(BGRImage)
-```
-You can also specify the amount of Brightness to increase with
-```
 AugImage = DocumentAugmention.BrightnessUp(BGRImage,alpha=50.0)
 ```
-Decrease the Brightness. 
+Decrease the Brightness.
 ```
 AugImage = DocumentAugmention.BrightnessDown(BGRImage)
-```
-You can also specify the amount of Brightness to decrease with
-```
 AugImage = DocumentAugmention.BrightnessDown(BGRImage,alpha=50.0)
-
+```
