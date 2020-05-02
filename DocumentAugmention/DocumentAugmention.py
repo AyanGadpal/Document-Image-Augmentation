@@ -8,7 +8,7 @@ def basicTransform(img):
 	return img
 
 def changeColor(image):
-  colorList = [[228,238,240],[148,236,255],[174,174,255],[170,240,255],[124,229,176],[231,216,180]]
+  colorList = [[228,238,240],[148,236,255],[174,174,255],[103,255,220],[124,229,176],[231,216,180]]
   randomColor = randint(0,5)
   gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
   ret, mask = cv2.threshold(gray, 0, 255,cv2.THRESH_BINARY_INV |cv2.THRESH_OTSU)
