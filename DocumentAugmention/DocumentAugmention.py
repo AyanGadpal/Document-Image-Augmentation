@@ -17,10 +17,12 @@ def changeColor(image):
   return coloredImage
 
 def BrightnessUp(image,alpha=50.0):
+  alpha = float(alpha)
   image = cv2.add(image,np.array([alpha]))
   return image
 
 def BrightnessDown(image,alpha=50.0):
+  alpha = float(alpha)
   image = cv2.subtract(image,np.array([alpha]))
   return image
 
