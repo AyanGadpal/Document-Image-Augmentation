@@ -18,7 +18,7 @@ This tool provide total 4 types of document Augmentation <br><br>
  * Process a singe image: 
     * `python DocAug.py --input_image_filename ../images/image1.jpg`
  * Process all images in a directory : 
-    * `python DocAug.py --input_image_dir ../images --out_dir ../results`
+    * `python DocAug.py --input_image_dir ../images/ --out_dir ../results/`
 #### 3. Python
 NOTE : Dialation and Smudge distort the text on the doc, and is useful for object detection task, Do not use this for OCR or text related task <br>
 * Dialation
