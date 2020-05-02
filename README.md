@@ -15,7 +15,7 @@ This tool provide total 4 types of document Augmentation <br><br>
 * `pip install numpy`
 * `pip install opencv-python`
 #### 2. Run ```DocAug.py```; examples:
- * Process a singe image: 
+ * Process a single image: 
     * `python DocAug.py --input_image_filename ../images/image1.jpg`
  * Process all images in a directory : 
     * `python DocAug.py --input_image_dir ../images/ --out_dir ../results/`
