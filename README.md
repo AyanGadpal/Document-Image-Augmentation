@@ -21,24 +21,23 @@ This tool provide total 4 types of document Augmentation <br><br>
     * `python DocAug.py --input_image_dir ../images`
   * Process all images in a directory (for each image, generate five images without original images): 
     * `python DocAug.py --input_image_dir ../images --out_dir ../results --out_number 5 --write_original 0`
-## API
-#### 1. Dialation and Smduge
-NOTE : Dialation and Smudge distort the text on the doc, and is useful for object detection task, Do not use this for OCR or text related task<br>
-Dialation
+#### 3. Python
+NOTE : Dialation and Smudge distort the text on the doc, and is useful for object detection task, Do not use this for OCR or text related task <br>
+* Dialation
 ```
 AugImage = DocumentAugmention.Dialate(BGRImage)
 ```
-Smudge
+* Smudge
 ```
 AugImage = DocumentAugmention.Smudge(BGRImage)
 ```
-#### 2. Color Changer
+* Color Changer <br>
 Color changer will pick random color from 6 distint color and change it with the white background
 ```
 AugImage = DocumentAugmention.changeColor(image)
 ```
 
-#### 3. Brightness Up and Down
+* Brightness Up and Down <br>
 Increase the Brightness. 
 ```
 AugImage = DocumentAugmention.BrightnessUp(BGRImage)
