@@ -36,6 +36,7 @@ AugImage = DocumentAugmention.changeColor(image)
 ```
 
 * Brightness Up and Down <br><br>
+
 Increase the Brightness.
 ```
 AugImage = DocumentAugmention.BrightnessUp(BGRImage)
