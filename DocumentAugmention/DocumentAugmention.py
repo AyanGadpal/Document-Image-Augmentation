@@ -61,7 +61,7 @@ def Smudge(image):
   # In order to save as jpg, or png, we need to handle the Data
   # format of image
   data = dist.astype(np.float64) / 4.0
-  data = 1800 * data # Now scale by 255
+  data = 1800 * data # Now scale by 1800
   SmudgedImage = data.astype(np.uint16)
 
   return SmudgedImage
