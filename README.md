@@ -50,15 +50,5 @@ AugImage = DocumentAugmention.BrightnessDown(BGRImage,alpha=50.0)
 ## Contact
 Ayan Gadpal : ayangadpal2 [at] gmail [dot] com <br>
 
-## Cite as
-<pre>
-@misc{ cascadetabnet2020,
-    title={CascadeTabNet: An approach for end to end table detection and structure recognition from image-based documents},
-    author={Devashish Prasad and Ayan Gadpal and Kshitij Kapadni and Manish Visave and Kavita Sultanpure},
-    year={2020},
-    eprint={2004.12629},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
-</pre>
-
+## More
+Know more about Dialation and smudge in [Here](https://github.com/DevashishPrasad/CascadeTabNet)
