@@ -1,18 +1,18 @@
 import os
 import argparse
 import cv2
-from DocumentAugmention import DocumentAugmention
+from DocumentAugmentation import DocumentAugmentation
 import glob 
 
 def SingleImage(src,des):
   image = cv2.imread(src)
 
   # Perform Augmentation
-  Dialated = DocumentAugmention.Dialate(image)
-  Smudged = DocumentAugmention.Smudge(image)
-  colored = DocumentAugmention.changeColor(image)
-  BUimage = DocumentAugmention.BrightnessUp(image)
-  BDimage = DocumentAugmention.BrightnessDown(image)
+  Dialated = DocumentAugmentation.Dialate(image) # Do not use for OCR
+  Smudged = DocumentAugmentation.Smudge(image) # Do not use for OCR 
+  colored = DocumentAugmentation.changeColor(image) # This will randomly select color
+  BUimage = DocumentAugmentation.BrightnessUp(image)
+  BDimage = DocumentAugmentation.BrightnessDown(image)
   
   # file name
   s = src.split("/")[-1].split(".")[:-1]
