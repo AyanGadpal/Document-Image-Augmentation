@@ -1,8 +1,7 @@
 # Document Image Augmentation
 ## Introduction
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AyanGadpal/Document-Image-Augmentation/blob/master/Document_Image_Augmentation_Demo_Notebook.ipynb#scrollTo=qLcrVsv7vyKM)<br>
-Document Image Augmentation is simple to use tool for performing  Augmentation on Document based Images.<br>
-This tool provide total 4 types of document Augmentation <br><br>
+Document Image Augmentation is simple to use tool for performing Augmentation on Document-based Images. <br> This tool provides a total of 4 types of document Augmentation<br><br>
 ![Documents Image Type](https://github.com/AyanGadpal/Document-Image-Augmentation/blob/master/Images/AugTypes.jpg)
 
 #### Following are Releasing Soon
